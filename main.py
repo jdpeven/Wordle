@@ -8,4 +8,5 @@ if __name__ == "__main__":
     game.play_game()
     x = input('Play again? (y/n): ')
     if x != 'y':
+      print("Thanks for playing!")
       break

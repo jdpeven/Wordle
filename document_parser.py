@@ -16,7 +16,7 @@ class DocumentParser():
     return words
 
   def get_random_word(self) -> str:
-    return random.sample(self.words, 1)
+    return random.sample(self.words, 1)[0]
 
   def is_valid_word(self, word) -> bool:
     return word in self.words
